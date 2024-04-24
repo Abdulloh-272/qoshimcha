@@ -1,0 +1,512 @@
+/* Global styles  */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #d4d6d4;
+}
+
+a:hover {
+  color: #ffd723;
+}
+
+/* Header styles  */
+
+header {
+  background-image: url(./images/Bitmap.png);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 60px 0;
+}
+
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.creative {
+  position: relative;
+}
+
+.agency {
+  position: absolute;
+  top: 50px;
+  width: 600px;
+}
+
+.agency h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.agency p {
+  color: white;
+  line-height: 26px;
+
+  margin-bottom: 30px;
+}
+
+.ideal {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 1090px;
+  height: 227px;
+  padding: 50px 20px;
+  top: 600px;
+  left:429px;
+  box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.382);
+}
+
+.walbridge img {
+  padding: 0px 20px;
+}
+
+.hero {
+  padding: 200px 0;
+}
+
+.hero-left1 {
+  width: 475px;
+  height: 350px;
+}
+
+.hero-left1 h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.hero-left1 p {
+  margin-bottom: 50px;
+}
+
+.hero-parent1 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hero-right1 {
+  box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.265);
+
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  left: 800px;
+  top: -250px;
+}
+
+.hero-right1 p {
+  margin-top: 70%;
+  line-height: 40px;
+  padding: 0 30px;
+}
+
+/* Hero2 styles  */
+
+hr {
+  color: #21384218;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 102px;
+  padding: 100px 80px;
+  gap: 80px;
+}
+
+.project h2 {
+  font-size: 36px;
+  width: 600px;
+}
+
+.project p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400px;
+  width: 800px;
+}
+
+.hero-left2 {
+  position: relative;
+  margin-left: -100px;
+}
+
+.angel {
+  position: absolute;
+  width: 453px;
+  height: 243px;
+  background-color: rgb(255, 255, 255);
+  top: 400px;
+  left: 320px;
+  border-radius: 5px;
+  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.38);
+}
+.angel p {
+  padding: 30px 25px;
+}
+
+.hero-parent2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  gap: 100px;
+}
+
+.hero-right2 {
+  margin-top: 100px;
+  width: 475px;
+  height: 397px;
+}
+
+.hero-right2 h2 {
+  height: 102px;
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 26px;
+  line-height: 48px;
+}
+
+.hero-right2 p {
+  margin-bottom: 50px;
+  line-height: 26px;
+}
+
+.hero-right3 {
+  position: relative;
+  margin-right: -100px;
+}
+
+.lina {
+  position: absolute;
+  width: 453px;
+  height: 243px;
+  background-color: rgb(255, 255, 255);
+  top: 400px;
+  left: -50px;
+  border-radius: 5px;
+  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.38);
+}
+.lina p {
+  padding: 30px 25px;
+}
+
+.hero-parent3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  gap: 100px;
+}
+
+.hero-left3 {
+  position: relative;
+  margin-top: 100px;
+  width: 475px;
+  height: 397px;
+}
+
+.hero-left3 h2 {
+  height: 102px;
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 26px;
+  line-height: 48px;
+}
+
+.hero-left3 p {
+  margin-bottom: 50px;
+  line-height: 26px;
+}
+
+.hero-left4 {
+  position: relative;
+  margin-left: -100px;
+}
+
+.oliver {
+  position: absolute;
+  width: 453px;
+  height: 243px;
+  background-color: rgb(255, 255, 255);
+  top: 400px;
+  left: 320px;
+  border-radius: 5px;
+  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.38);
+}
+.oliver p {
+  padding: 30px 25px;
+}
+
+.hero4 {
+  margin-bottom: 200px;
+}
+
+.hero-parent4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  gap: 100px;
+}
+
+.hero-right4 {
+  margin-top: 100px;
+  width: 475px;
+  height: 397px;
+}
+
+.hero-right4 h2 {
+  height: 102px;
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 26px;
+  line-height: 48px;
+}
+
+.hero-right4 p {
+  margin-bottom: 50px;
+  line-height: 26px;
+}
+
+/* HERO STYLES-5 */
+
+.best h2 {
+  margin-top: 150px;
+  font-size: 36px;
+  font-weight: 400px;
+  line-height: 46px;
+  width: 607px;
+  height: 97px;
+  color: #4d533c;
+}
+
+.read {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.read h3 {
+  font-size: 24px;
+  font-weight: 500px;
+  line-height: 34px;
+  width: 183px;
+  height: 68px;
+}
+
+.product {
+  width: 350px;
+  height: 309px;
+  padding: 30px 30px;
+}
+
+.ux {
+  width: 300px;
+  height: 309px;
+  padding: 30px 30px;
+}
+
+.scoping {
+  width: 300px;
+  height: 309px;
+  padding: 30px 30px;
+}
+
+.code {
+  width: 350px;
+  height: 309px;
+  padding: 30px 30px;
+}
+
+.product p {
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.ux p {
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.scoping p {
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 43px;
+}
+
+.code p {
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.amazing h2 {
+  color: #4d533c;
+  font-size: 60px;
+  line-height: 74px;
+  width: 822px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-image: url(./images/Bg.png);
+  width: 100%;
+  height: 950px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 452px;
+  height: 88px;
+  padding: 200px 0px;
+  margin-top: 150px;
+}
+
+.footer h3 {
+  color: white;
+  font-size: 16px;
+}
+
+.footer p {
+  margin-top: 50px;
+  margin-bottom: 35px;
+  color: white;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+
+.services {
+  width: 167px;
+  height: 209px;
+}
+
+.services h3 {
+  color: white;
+  margin-bottom: 30px;
+}
+.services a {
+  text-decoration: none;
+  line-height: 40px;
+  color: #b6c197;
+}
+
+.help {
+  width: 180px;
+  height: 219px;
+}
+
+.help h3 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.help a {
+  text-decoration: none;
+  line-height: 40px;
+  width: 140px;
+  color: #b6c197;
+}
+
+.company {
+  width: 80px;
+  height: 219px;
+}
+
+.company a {
+  text-decoration: none;
+  line-height: 40px;
+  color: #b6c197;
+}
+
+.company h3 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.get {
+  width: 322px;
+  height: 232px;
+}
+
+.get h3 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.get h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.get p {
+  color: #b6c197;
+  margin-bottom: 30px;
+}
+
+.get i {
+  font-size: 33px;
+  color: #444a34;
+}
+
+.get i:hover {
+  color: #ffd723;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.footer-right h4 {
+  color: #b5c096;
+}
+
+.make {
+  position: relative;
+}
+
+.amazing {
+  background-color: white;
+  position: absolute;
+  top: -30px;
+  left: -140px;
+  max-width: 1275px;
+  height: 350px;
+  padding: 80px 100px;
+  box-shadow: 50px 130px 100px 0 #00000020;
+}
